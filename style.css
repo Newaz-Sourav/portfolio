@@ -1,0 +1,293 @@
+
+.hero{
+    background-color: rgb(236, 223, 206);
+    height: 500px;
+}
+
+html,body{
+    position: relative;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.developer{
+    height: 500px;
+}
+
+.nickname{
+    position: relative;
+    left: 110px;
+    bottom: 500px;    
+}
+
+.hi-iam{
+    font-size: 45px; 
+    font-weight: bold;
+}
+
+.newaz-sourav{
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.details{
+    font-size: 25px;
+}
+
+.nrml_btn_nav{
+    height: 25px;
+    width: 75px;
+    font-size: 15px;
+    font-weight: bolder;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.Hire_btn_nav{
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(238, 151, 89);
+    border-radius: 15%;
+}
+
+.nav{
+    position: relative;
+    left:950px;
+    bottom: 570px;
+}
+
+.cv_btn{
+    
+    width: 135px; 
+    height: 45px; 
+    border-radius: 12%; 
+    font-size: 15px; 
+    font-weight: bold;  
+    color: white;
+    background-color: rgb(212, 31, 31);
+}
+
+.call_btn{
+    width: 125px; 
+    height: 45px; 
+    border-radius: 12%; 
+    font-size: 15px; 
+    font-weight: bold; 
+    margin-left: 20px; 
+    border: rgb(227, 45, 13) solid;
+     background-color: rgb(251, 251, 251);
+}
+
+.my_img{
+    background-image: url("picBG.png");
+    background-repeat: no-repeat;
+    width: 760px;
+    height: 375px;
+
+}
+
+.name{
+    width: 480px;
+}
+
+.sourav{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 300px;
+    bottom: 25px;
+}
+
+
+.name_img{
+    position: relative;
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    width: 1200px;
+    left: 110px;
+    bottom: 510px;
+}
+
+.col-info{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position: relative;
+    top: 95px;
+    width: 750px;
+    left: 20px;
+}
+
+.about{
+    text-align: center;
+    width: 800px;
+    height: 390px;
+    position: relative;
+    left: 270px;
+    top: 150px;
+    background-color: rgb(239, 200, 206);
+}
+
+.my-work{
+    font-size: 15px;
+    text-justify: auto;
+    position: relative;
+    color: rgb(110, 101, 111);
+    width: 600px;
+    left: 95px;
+    top: 95px;
+}
+
+.info-text{
+    font-size: 15px;
+}
+
+.about-me{
+    position: relative;
+    top: 100px;
+}
+
+.skils{
+    position: relative;
+    text-align: center;
+    top: 270px;
+    width: 1100px;
+    height: 550px;
+    left: 120px;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+}
+
+.what-i-do{
+color: rgb(80, 75, 75);
+}
+
+.what-i-do-info{
+    font-size: 16px;
+}
+
+.site-name{
+ font-weight: bold;
+ font-size: 18px;
+}
+
+
+
+.cards-sec{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position: relative;
+    top: 20px;
+}
+
+.card{
+    text-align: justify;
+    padding: 25px;
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.summary{
+    position: relative;
+    top: 350px;
+    width: 900px;
+    height: 440px;
+    left: 235px;
+}
+
+.child-sum{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.child-sum-el{
+    border-bottom: dotted;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+.sum-my-res{
+    position: relative;
+    left: 250px;
+    color: rgb(54, 60, 60);
+}
+
+.dwn-btn-last{
+    width: 135px; 
+    height: 45px; 
+    border-radius: 10%; 
+    font-size: 15px; 
+    font-weight: bold;  
+    color: white;
+    background-color: rgb(212, 31, 31);
+    position: relative;
+    top: 370px;
+    left: 600px;
+}
+
+.fot{
+    position: relative;
+    top: 550px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.input{
+    width: 350px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.msg-box{
+    width: 350px;
+    height: 120px;
+    margin-top: 15px;
+}
+
+.msg-box::placeholder{
+    vertical-align: top;
+    line-height: 1;
+}
+
+.submit-btn{
+    width: 135px; 
+    height: 45px; 
+    border-radius: 10%; 
+    font-size: 15px; 
+    font-weight: bold;  
+    color: white;
+    background-color: rgb(212, 31, 31);
+    position: relative;
+    top: 30px;
+    
+}
+
+.msg{
+    width: 400px;
+    position: relative;
+    height: 500px;
+    left: 180px;
+    top: 80px;
+}
+
+.fot-cntct{
+    position: relative;
+    height: 450px;
+    top: 110px;
+    left: 210px;
+}
+
+.fot{
+    background-color: rgb(255, 245, 232);
+    height: 650px;
+    position: relative;
+    top: 430px;
+}
